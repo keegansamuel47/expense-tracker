@@ -15,6 +15,11 @@ if second_price > 0:
 else:
     print("That's not a valid amount.")
 
-
-print(f"Total spent: ${price + second_price:.2f}.")
-
+#in order to get the lines to print the total with respect to their independent prices , use a connecting statement , if price is true and second price is false print.... so
+#it checks for the true or false statement and print
+if price > 0 >= second_price:
+    print(f"Total spent: ${price:.2f}")
+elif price <= 0 < second_price:
+    print(f"Total spent: ${second_price}")
+else:
+    print(f"Total spent: ${price + second_price:.2f}.")
