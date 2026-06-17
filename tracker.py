@@ -17,5 +17,3 @@ else:
     print("That's not a valid amount.")
 
 print(f"Total spent: ${total:.2f}.")
-
-
